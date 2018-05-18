@@ -17,20 +17,20 @@
   The widths of each section should be: section: 495px
 
 h1, p{
-    
-    color: #777;
-    <body style:background-color: #ebebeb;
+    <body style:background-color: #fff9f9;
     font: 24px; 
     text-align: center;
+    float: right;
+    width: 495px;
 }
 
 h3 {
-text-emphasis: circle ;
-font-family: 'Poiret One', cursive;
-}
+    text-emphasis: circle ;
+    font-family: 'Poiret One', cursive;
+    color: chartreuse
+    float: center;    }
 
 background {
-
     color:  rgb(39, 203, 137);
 
 }
@@ -68,4 +68,49 @@ font-family: 'Poiret One', cursive;
 footer {
 
     text-align: center;
+}
+.navmenu {
+    float: right
+}
+
+.wrapper {
+    background: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#wrapper {
+    padding: 20px;
+    font-size: 20px;
+    border: 20px solid rgba(0,0,0,0.5);}
+
+#wrapper header, #wrapper footer {
+  background-color: blue;
+  color: white;
+}
+
+#wrapper main {
+  background-color: yellow;
+  margin: 2%;
+  padding: 2%;
+  border: 60px solid rgba(0,0,0,0.5);
+  width: 60%;
+}
+
+#wrapper header {
+
+}
+
+#wrapper footer {
+  margin-top: 20px;
+}
+
+header1 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    
 }
